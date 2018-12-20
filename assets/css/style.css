@@ -1,14 +1,17 @@
 body {
     background-image: url("../../assets/images/Background.jpeg");
     font-style: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 10px;
 }
 
 h1 {
     color: white;
     background: orange;
     width: 250px;
-    padding: 10px;
-    margin: 10px 0px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .intro {
@@ -17,6 +20,10 @@ h1 {
     width: 500px;
     font-weight: bold;
     padding: 10px 10px;
+}
+
+#intro{
+   margin-top: 15px; 
 }
 
 #random-number {
@@ -34,16 +41,22 @@ h1 {
 
 .wins-losses {
     background: cyan;
-    margin: 10px 10px;
-    padding: 0px 10px;
+    margin: 10px;
     height: 90px;
     width: 80px;
     float:left;
 }
+#number-wins, #number-losses {
+    padding: 10px;
+}
 
 .images {
     clear: both;
-    display: block;
+    
+}
+#gem1, #gem2, #gem3, #gem4 {
+    border:2px solid #021a40;
+    margin-right: 5px;
 }
 
 #score-text {
