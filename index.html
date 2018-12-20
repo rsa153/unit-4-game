@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Crystal Calculator</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Crystal Collector!</h1>
+
+    <div class = "intro">
+      <p>You will be given a random number at the state of the game</p>
+      <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+
+    <div id = "random-number"></div>
+    
+    <div class = "wins-losses"> <p id = "number-wins">Wins: 0</p> <p id= "number-losses">Losses: 0</p></div>
+
+  <div class = "images" >
+      <img src="assets/images/Gem1.jpeg" id="gem1" width="75" height="75" style="background-color: beige" border="5">
+      <img src="assets/images/Gem2.jpeg" id="gem2" width="75" height="75" style="background-color: beige" border="5">
+      <img src="assets/images/Gem3.jpeg" id="gem3" width="75" height="75" style="background-color: beige" border="5">
+      <img src="assets/images/Gem4.jpeg" id="gem4" width="75" height="75" style="background-color: beige" border="5">
+  </div>
+  
+    <p id = "score-text">Your total score is</p>
+    
+    <p id = "your-score">0</p>
+
+</body>
+
