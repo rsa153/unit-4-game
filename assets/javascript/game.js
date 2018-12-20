@@ -30,7 +30,7 @@ function reset(){
 function youWon(){
     alert("You won!");
       wins++; 
-      $("#number-wins").text(wins);
+      $("#number-wins").text("Wins: " + wins);
       reset();
       yourTotal = 0;
     console.log(yourTotal);
@@ -40,7 +40,7 @@ function youWon(){
 function youLost(){
     alert ("You lose!");
       losses++;
-      $("#number-losses").text(losses);
+      $("#number-losses").text("Losses: " + losses);
       reset();
       yourTotal = 0;
     console.log(yourTotal);
